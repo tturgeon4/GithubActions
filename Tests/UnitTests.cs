@@ -33,9 +33,9 @@ namespace GithubActionsLab
         [Test]
         public void Subtract_Valid()
         {
-            Assert.AreEqual(4, Program.Subtract("6", "1");
-            Assert.AreEqual(3, Program.Subtract("7", "4");
-            Assert.AreEqual(1, Program.Subtract("9", "8");
+            Assert.AreEqual(5, Program.Subtract("6", "1"));
+            Assert.AreEqual(3, Program.Subtract("7", "4"));
+            Assert.AreEqual(1, Program.Subtract("9", "8"));
         }
                             
         [Test]
@@ -57,9 +57,9 @@ namespace GithubActionsLab
 		[Test]
         public void Multiply_Valid()
         {
-            Assert.AreEqual(20, Program.Multiply("10", "2");
-            Assert.AreEqual(16, Program.Multiply("4", "4");
-            Assert.AreEqual(45, Program.Multiply("9", "5");
+            Assert.AreEqual(20, Program.Multiply("10", "2"));
+            Assert.AreEqual(16, Program.Multiply("4", "4"));
+            Assert.AreEqual(45, Program.Multiply("9", "5"));
         }
                             
         [Test]
@@ -81,9 +81,9 @@ namespace GithubActionsLab
 		[Test]
         public void Divide_Valid()
         {
-            Assert.AreEqual(3, Program.Divide("3", "1");
-            Assert.AreEqual(1, Program.Divide("7", "7");
-            Assert.AreEqual(0, Program.Divide("0", "1");
+            Assert.AreEqual(3, Program.Divide("3", "1"));
+            Assert.AreEqual(1, Program.Divide("7", "7"));
+            Assert.AreEqual(0, Program.Divide("0", "1"));
         }
                             
         [Test]
@@ -105,9 +105,9 @@ namespace GithubActionsLab
 		[Test]
         public void Power_Valid()
         {
-            Assert.AreEqual(216, Program.Power("6", "3");
-            Assert.AreEqual(1, Program.Power("1", "2");
-            Assert.AreEqual(256, Program.Power("2", "8");
+            Assert.AreEqual(216, Program.Power("6", "3"));
+            Assert.AreEqual(1, Program.Power("1", "2"));
+            Assert.AreEqual(256, Program.Power("2", "8"));
         }
                             
         [Test]
